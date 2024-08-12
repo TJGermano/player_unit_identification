@@ -10,8 +10,10 @@ This repository contains scripts that analyze offensive players' performance aga
 
 ## Project Structure
 - **scripts/**: Contains Python scripts for analyzing player performance.
+  **scripts/passing_scripts**: Contains filter for passing plays only for the scripts. 
   - `qb_vs_defense.py`: Analyzes QBs' performance against different defenses.
-  - `rb_vs_defense.py`: Analyzes RBs' performance against different defenses.
+  - `rb_vs_defense.py`: Analyzes RBs' performance against different defenses. - PLACEHOLDER 
+  - `defence_vs_offensive_formation.py`: Analyzes overall defensive performance against different offensive formations.
   - `wr_vs_defense.py`: Analyzes WRs' performance against different defenses.
   - `offense_vs_defense.py`: Analyzes overall offensive performance against different defenses.
 ## Data Sources
