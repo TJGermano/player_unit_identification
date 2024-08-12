@@ -1,2 +1,18 @@
 # player_unit_identification
-Repo to start building out scripts for 2024 NFL sesason. Goal is to be able to identify a player/units stregnths and compare it to the opposite unit they will be going against 
+# Offensive Player vs Defense Analysis
+
+## Overview
+This repository contains scripts that analyze offensive players' performance against various defensive schemes. The goal is to help users predict how well a player might perform against an upcoming defense. The analysis covers:
+- Quarterbacks (QBs) vs. Defenses
+- Running Backs (RBs) vs. Defenses
+- Wide Receivers (WRs) vs. Defenses
+- Overall Offensive Units vs. Defenses
+
+## Project Structure
+- **scripts/**: Contains Python scripts for analyzing player performance.
+  - `qb_vs_defense.py`: Analyzes QBs' performance against different defenses.
+  - `rb_vs_defense.py`: Analyzes RBs' performance against different defenses.
+  - `wr_vs_defense.py`: Analyzes WRs' performance against different defenses.
+  - `offense_vs_defense.py`: Analyzes overall offensive performance against different defenses.
+## Data Sources
+- [nfl_data_py](https://pypi.org/project/nfl-data-py/): A Python package that provides access to NFL play-by-play data, player stats, and more, used for analyzing player performance against defensive schemes.
